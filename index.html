@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width">
+    <title>Сотовик</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- КОНТЕНТ -->
+    <div id="app">
+      <!-- Nabvar -->
+      <div class="navBar">
+        <div class="filters">
+          <div class="active" data-type="all">Все товары</div>
+          <div data-type="1" >Apple</div>
+          <div data-type="2" >Samsung</div>
+          <div data-type="3">Xiaomi</div>
+          <div data-type="4">Honor</div>  </div>
+
+
+      <div class="sorting">
+        <p class="maxprice">Цена по возрастанию</p>
+        <p class="minprice">Цена по убыванию</p>
+      </div>
+      <div>
+        <img
+          class="basket"
+          src="/img/carts.png"
+          width="35px"
+          height="35px"
+        />
+        <span class="cart_quantity">0</span>
+      </div>
+      </div>
+      <hr style="border: 2px solid rgb(85, 22, 22)" />  
+      <!-- Navbar -->
+      <!-- Basket -->
+      <div class="product_content none">
+  <div class="product_items">
+  </div>
+  <div class="if_empty">
+Ваша корзина пуста, добавьте продукты
+  </div>
+  
+  <div class="product_bottom">
+<div class="clearBasket">
+  Очистить корзинку
+</div>
+<div class="closeCart">Закрыть</div>
+  </div>
+  <div class="lastPrice">
+    <span>Итого:&nbsp;</span> <span class="getFullPrice">0</span>&nbsp;<span>RUB</span>
+  </div>
+      </div>
+    <!-- Basket -->
+
+
+      <!-- Blocks -->
+      <div class="main_block">
+      </div>
+        
+      <!-- Blocks -->
+
+      <!-- Modal -->
+      <div class="dialog none" data-type="close">
+        <div class="dialog_content">
+          <h3 style="text-align: center">Полная информация о товаре</h3>
+          <div class="modal_card">
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+
+<!-- Футер сайта -->
+<div class="footer">
+  <div class="social">
+    <div class="telega"><a href="https://t.me/eframx"><img src="img/telega.png"></a></div>
+    <div class="vk"><a href="https://vk.com/framx"><img src="img/vk.jpg"></a></div>
+    <div class="insta"><a href="https://instagram.com/e.framx"><img src="img/insta.png"></a></div>
+  </div>
+</div>
+<!-- Футер сайта -->
+
+
+
+    <!-- КОНТЕНТ -->
+    <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script  src="script.js"></script>
+  </body>
+</html>
