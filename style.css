@@ -59,6 +59,10 @@ textarea {
   font-family: inherit;
 }
 
+h1,h2,h3,h4,h5,h6,span,p{
+  cursor: default;
+}
+
 input::-ms-clear {
   display: none;
 }
@@ -142,6 +146,7 @@ body {
 
 .filters > div {
   margin-left: 30px;
+  cursor: pointer;
 }
 .filters > div:hover {
   font-size: 30px;
@@ -152,6 +157,13 @@ body {
 }
 .basket {
   margin-left: -50px;
+  cursor: pointer;
+}
+.maxprice{
+  cursor: pointer;
+}
+.minprice{
+  cursor: pointer;
 }
 .basket:hover {
   transition: 0.2s;
@@ -166,7 +178,7 @@ body {
 .block_container {
   width: 270px;
   height: 430px;
-  box-shadow: 0px 0px 3px 1px rgb(153, 152, 152);
+  box-shadow: 0px 0px 3px 1px rgb(151, 146, 146);
   border-radius: 6px;
   margin-top: 70px;
   justify-content: space-around;
@@ -221,6 +233,7 @@ color: green;
 h3 > .add_logo:hover {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 
@@ -262,11 +275,13 @@ h3 > .add_logo:hover {
   height: 100%;
   top: 0;
   left: 0;
+  
 }
 .rating_item {
   flex: 0 0 20%;
   height: 100%;
   opacity: 0;
+  cursor: pointer;
 }
 .rating__value {
   font-size: 50%;
@@ -317,10 +332,12 @@ h3 > .add_logo:hover {
 
 .sldbtn {
   margin-top: 220px;
+  cursor: pointer;
 }
 .sldbtn2 {
   margin-left: 20px;
   margin-top: 220px;
+  cursor: pointer;
 }
 .sorting {
   font-size: 18px;
@@ -372,6 +389,7 @@ h3 > .add_logo:hover {
 .delete_item {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 .type_number {
   width: 40px;
@@ -423,8 +441,7 @@ input::-webkit-inner-spin-button {
   align-items: center;
   justify-content: center;
   padding: 3px;
-
-
+  cursor: pointer;
 }
 
 .footer {
@@ -457,6 +474,7 @@ input::-webkit-inner-spin-button {
   width: 50px;
   height: 50px;
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .insta {
@@ -464,6 +482,7 @@ input::-webkit-inner-spin-button {
   width: 50px;
   height: 50px;
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .vk {
@@ -471,6 +490,7 @@ input::-webkit-inner-spin-button {
   width: 50px;
   height: 50px;
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .telega:hover {
@@ -512,6 +532,7 @@ input::-webkit-inner-spin-button {
   position: absolute;
   margin-left: 220px;
   margin-bottom: -410px;
+  cursor: pointer;
 }
 .closeCart{
   background: rgb(255, 208, 0);
@@ -524,6 +545,7 @@ input::-webkit-inner-spin-button {
   justify-content: center;
   padding: 3px;
   overflow: hidden;
+  cursor: pointer;
 }
 .closeCart:hover {
   background-color: rgb(216, 216, 216);
