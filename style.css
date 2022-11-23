@@ -166,11 +166,12 @@ body {
 .block_container {
   width: 270px;
   height: 430px;
-  box-shadow: 0px 0px 3px 1px rgb(255, 94, 0);
+  box-shadow: 0px 0px 3px 1px rgb(153, 152, 152);
   border-radius: 6px;
   margin-top: 70px;
   justify-content: space-around;
   margin-left: 70px;
+  cursor: pointer;
 }
 
 .block_img_2{
@@ -221,10 +222,7 @@ h3 > .add_logo:hover {
   width: 30px;
   height: 30px;
 }
-.block_container > img:hover {
-  transition: 0.2s;
-  opacity: 0.8;
-}
+
 
 .rating {
   display: flex;
